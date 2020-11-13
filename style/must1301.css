@@ -1,0 +1,252 @@
+<<<<<<< HEAD
+version https://git-lfs.github.com/spec/v1
+oid sha256:36264fb7bae8eb56a0bd91dbb4bfd6c048b690064489a16baaf30858d584863b
+size 3490
+=======
+
+
+@font-face {
+    font-family: 'muliregular';
+    src: url('Muli/muli-webfont.woff2') format('woff2'),
+         url('Muli/muli-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+html, body {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+	font-family: helvetica;
+	font-weight: lighter;
+}
+
+:root {
+	--accent: #D33E43;
+	--container2: #666370;
+	--container: white;
+	--background: #02040F;
+	--hover: white;
+}
+
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track { 
+
+  background: black;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--accent);
+  border-radius: 0px;
+}
+
+
+.container {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	display: flex;
+	flex-direction: column; 
+	background-color: var(--background);
+	min-height: 100%;
+	
+}
+
+.navbar {
+	margin: 0px;
+	padding: 12.5px;
+	background-color: var(--accent);
+	height: 25px;
+}
+
+.pages {
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 12.5px;
+	height: 25px;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-around;
+}
+
+.navbar a:link {
+	font-size: 20px;
+	margin: 0px;
+	float: left;
+	text-decoration: none;
+	color: black;
+}
+
+.navbar a:visited {
+	font-size: 20px;
+	margin: 0px;
+	float: left;
+	text-decoration: none;
+	color: black;
+}
+
+.navbar a:hover {
+	font-size: 20px;
+	margin: 0px;
+	float: left;
+	text-decoration: none;
+	color: white;
+}
+
+h1, h2, h3, h4 {
+	font-weight: normal;
+}
+
+/* composer preview style */
+/**********************************************************************/
+
+.innerContainer {
+	width: 1000px;
+	margin-top: 100px;
+	margin: auto;
+	background-color: var(--container);
+	border-radius: 40px 40px 0px 0px;
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+	margin-top: 50px;
+}
+
+.composerContainer {
+	width: 900px;
+	
+	/*background-color: #666370;*/
+	margin: auto;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-around;
+	padding-top: 10px;
+	padding-bottom:10px;
+	
+
+}
+
+.composer {
+	float: left;
+	/*outline-style: solid;
+	outline-color: black;*/
+	height: 350px;
+	width: 425px;
+
+}
+
+.name {
+	float: left;
+	margin-top: 20px;
+	width: 100%;
+	text-align: center;
+}
+
+.name a:link {
+	font-size: 25px;
+	color: var(--background);
+	text-decoration: none;
+}
+
+.name a:visited {
+	font-size: 25px;
+	color: var(--background);
+	text-decoration: none;
+}
+
+.name a:hover {
+	font-size: 25px;
+	color: var(--hover);
+	text-decoration: none;
+}
+
+.preview {
+	display: block;
+	background-color: var(--accent);
+	height: 320px;
+	border-radius: 10px
+}
+
+.preview video {
+	margin-left: 12.5px;
+	margin-top: 30px;
+	width: 400px;
+	height: 225px;
+}
+
+.compositionContainer {
+	
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+	background-color: var(--container);
+}
+
+.composition {
+	width: 600px;
+	/*background-color:  #D33E43;*/
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+}
+
+.composition h3 {
+	font-size: 40px;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+}
+
+.title {
+	text-align: center;
+}
+
+
+video {
+	outline-style: none;
+}
+
+audio {
+	outline-style: none;
+	width: 100%;
+}
+
+.composition a:link {
+	font-size: 20px;
+	margin: 0px;
+	text-decoration: none;
+	background-color: var(--background);
+	padding: 5px;
+	border-radius: 5px;
+	color: var(--container);
+}
+
+.composition a:visited {
+	color: var(--container);
+}
+
+.composition a:hover {
+	background-color: var(--hover);
+}
+
+.title h1 {
+	font-size: 60px;
+}
+
+>>>>>>> 782c119b99753049c33e884590f7e8dde7e55f9d
